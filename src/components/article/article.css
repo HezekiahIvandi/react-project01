@@ -1,0 +1,13 @@
+.article img{
+    width:100%;
+}
+.article{
+    color:white
+}
+.article-text{
+    background-color: var(--color-blog);
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    
+}

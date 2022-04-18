@@ -1,0 +1,92 @@
+.features{
+    color:white;
+    padding: 8rem 6rem 8rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: var(--font-family);
+   
+}
+.gpt3_features_Feature .feature{
+ display:grid;
+ grid-template-columns: 0.7fr 1fr;
+ padding: 0 0 3rem 0
+}
+.gpt3_features_Feature .feature .h2-title{
+    margin-right: 5rem;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+.gpt3_features_Feature .feature .h2-title .div-text{
+    background: #81AFDD;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.gpt3_features_opening {
+    padding: 0 8rem 0 0;
+}
+.gpt3_features_opening h2{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 4rem;
+
+}
+.gpt3_features_opening p{
+    color: var(--color-subtext);
+
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+@media screen and (min-width:701px) and (max-width:1050px){
+    .features{
+        padding: 2rem 4rem 8rem 4rem;
+        display: block;
+    }
+    .gpt3_features_opening {
+        padding: 0;
+    }
+    .gpt3_features_opening h2{
+        margin-bottom: 1rem
+    }
+    .gpt3_features_opening p{
+        margin-bottom: 2rem
+    }
+}
+@media screen and (max-width:700px){
+    .features{
+        padding: 2rem 2rem 8rem 2rem;
+        display: block;
+    }
+    .gpt3_features_opening {
+        padding: 0;
+    }
+    .gpt3_features_opening h2{
+        margin-bottom: 1rem
+    }
+    .gpt3_features_opening p{
+        margin-bottom: 2rem
+    }
+    .gpt3_features_Feature .feature{
+        display:block;
+        grid-template-columns: 0.7fr 1fr;
+        padding-bottom: 2rem;
+       }
+
+}

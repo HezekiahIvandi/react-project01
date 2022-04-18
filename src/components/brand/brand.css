@@ -1,0 +1,24 @@
+.gpt3_brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    margin-right:50px;
+}
+.gpt3_brand img {
+    margin-left: 20px;
+}
+.shopify{
+    width: 100px
+}
+.google{width: 85px}
+
+@media screen and (max-width: 620px) {
+    .dropbox{margin-top:6px;}
+    .gpt3_brand{
+        margin-left:20px;
+    }
+    .gpt3_brand img {
+        width:70px;
+    }
+}

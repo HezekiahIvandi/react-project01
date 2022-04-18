@@ -1,0 +1,64 @@
+.possi{
+    font-family: Manrope;
+    color:white;
+    padding: 0 6rem 4rem 6rem;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+  
+}
+.possi img{
+width:500px;
+}
+.possi h2{
+   
+font-size: 34px;
+font-weight: 800;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.possi_text p{
+    
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.p1{
+color:#71E5FF;
+
+
+}
+.p2{
+    color:#81AFDD;
+
+}
+.p3{color: #FF8A71;
+
+}
+.possi_text{
+    margin:13rem 3rem 0 0;
+}
+@media screen and (min-width: 701px) and (max-width:1050px){
+    #possibility{
+        padding: 0 4rem 4rem 4rem;
+        display: block;
+    }
+    .possi_text{
+        margin:4rem 0 0 0;
+    }
+}
+@media screen and (max-width:700px){
+    #possibility{
+        padding: 0 2rem 4rem 2rem;
+        display: block;
+    }
+    .possi_text{
+        margin:4rem 0 0 0;
+    }
+    .possi img{
+        width:300px;
+        }
+}

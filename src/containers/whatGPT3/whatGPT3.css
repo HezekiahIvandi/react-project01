@@ -1,0 +1,106 @@
+.gpt3_what-is-gpt3{
+    
+    color: white;
+    font-family: var(--font-family);
+    margin: 7rem 6rem 0 6rem;
+    padding: 3rem;
+    
+
+         /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+}
+.gpt_what-is-gpt3_div2{
+    
+    display:grid;
+   grid-template-columns: 1fr 1fr;
+    padding: 6rem 0;
+
+}
+.gpt_what-is-gpt3_div2 h2{
+   
+font-size: 34px;
+font-weight: 800;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.gpt_what-is-gpt3_div2 div{
+    display:flex;
+    justify-content: flex-end;
+    color:var(--color-subtext)
+}
+.gpt_what-is-gpt3_div2 div p{
+    cursor:pointer
+}
+.gpt3-feature1{
+    padding-top: 1rem;
+}
+.gpt3-feature1 .feature{
+display:grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.gpt3-feature2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 40px;
+    column-gap: 10px;
+
+}
+
+.gpt3-feature2 .feature .h2-title{
+    margin-bottom:40px;
+}
+
+@media screen and (min-width:701px) and (max-width:1050px) {
+    .gpt3_what-is-gpt3{
+        margin:2rem 2rem;
+        padding:2rem 2rem;
+       
+    }
+}
+
+@media screen and (max-width:700px){
+    .gpt3_what-is-gpt3{
+        margin:1rem 1rem;
+    }
+    .gpt3-feature1 .feature{
+        display:flex;
+        flex-direction: column;
+    }
+    .gpt3-feature1 .feature .h2-title{
+        margin-bottom:10px
+    }
+.gpt3-feature2{
+    display:block}
+.gpt3-feature2 .feature .div-text{
+    margin-bottom: 15px;
+}
+.gpt3-feature2 .feature .h2-title{
+    margin-bottom: 15px;
+}
+}
+@media screen  and (max-width:480px){
+    .gpt_what-is-gpt3_div2 h2{
+    }
+    .gpt_what-is-gpt3_div2{
+        display: block;
+    }
+    .gpt_what-is-gpt3_div2 div{
+        display:block;
+        margin-top:30px
+    }
+}
